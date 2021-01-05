@@ -1,0 +1,33 @@
+h1{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+}
+.word-color{
+    color: #FF8367;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    padding-bottom: 50px;
+}
+.half-area{
+    width: 40%;
+    padding-left: 5%;
+    float: left;
+}
+.first-image{
+    width: 465px;
+    height: 613px;
+}
+.buttons{
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 6px;
+    background-image: linear-gradient(180deg, #F55555, #FC8070); /*F56161 #FC7762*/
+    padding: 20px 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
