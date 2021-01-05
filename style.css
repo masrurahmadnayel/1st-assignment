@@ -1,26 +1,18 @@
+/*  common classes  */
 h1{
     font-family: Bebas Neue;
-    font-style: normal;
-    font-weight: bold;
     font-size: 80px;
+    margin-bottom: 40px;
     line-height: 80px;
 }
 .word-color{
     color: #FF8367;
 }
 p{
+    color: #6C6C6C;
     font-family: 'Roboto', sans-serif;
     line-height: 28px;
-    padding-bottom: 50px;
-}
-.half-area{
-    width: 40%;
-    padding-left: 5%;
-    float: left;
-}
-.first-image{
-    width: 465px;
-    height: 613px;
+    padding-bottom: 40px;
 }
 .buttons{
     text-decoration: none;
@@ -29,5 +21,63 @@ p{
     background-image: linear-gradient(180deg, #F55555, #FC8070); /*F56161 #FC7762*/
     padding: 20px 50px;
     color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.half-area{
+    width: 40%;
+    padding-left: 135px;
+    padding-top: 50px;
+    float: left;
+}
+
+
+/*  top section start  */
+.first-image{
+    width: 465px;
+    height: 613px;
+    position: relative;
+    bottom: 80px;
+}
+
+
+/*  second section start  */
+.second-image{
+    position: relative;
+    left: 123px;
+    bottom: 200px;
+    width: 476.26px;
+    height: 583.51px;
+}
+.second-button{
+    padding: 20px 25px;
+}
+
+
+/*  third section start  */
+.third-section{
+    background-color: #F8F9FC;
+    padding: 100px;
+}
+.third-section-heading{
+    text-align: center;
+    font-size: 48px;
+    line-height: 48px;
+}
+.third-section-every-part{
+    width: 420px;
+    height: 454px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 30px;
+    margin-left: 70px;
+    display: inline-block;
+}
+.third-section-images{
+    width: 100%;
+}
+h3{
+    font-size: 24px;
     font-family: 'Roboto', sans-serif;
 }
