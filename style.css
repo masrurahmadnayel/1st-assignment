@@ -41,9 +41,9 @@ p{
 /*  second section start  */
 .second-image{
     position: relative;
-    left: 123px;
+    left: 50px;
     bottom: 150px; 
-    width: 600px;
+    width: 750px;
     height: 750px;
 }
 .second-button{
