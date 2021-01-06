@@ -57,6 +57,7 @@ p{
 .third-section{
     background-color: #F8F9FC;
     padding: 100px;
+    margin-bottom: 100px;
 }
 .third-section-heading{
     text-align: center;
@@ -81,3 +82,37 @@ h3{
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
 }
+
+
+/*  fourth section start  */
+.fourth-section-div{
+    background-image: url("image/chat-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-bottom: 100px;
+    height: 325px;
+    width: 70%;
+    padding-top: 30px;
+    position: relative;
+}
+.fourth-section-div h1{
+    color: white;
+    margin-left: 8%;
+    margin-top: 8%;
+    font-weight: inherit;
+}
+.fourth-section-div a{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+.third-button{
+    padding: 30px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+
