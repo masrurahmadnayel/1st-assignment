@@ -91,7 +91,7 @@ h3{
     background-size: cover;
     border-radius: 30px;
     margin-left: 15%;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     height: 325px;
     width: 70%;
     padding-top: 30px;
@@ -114,5 +114,41 @@ h3{
     border-radius: 10px;
 }
 
+/*  footer part start  */
+footer{
+    position: relative;
+}
+footer p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+footer .footer-pera{
+    font-weight: inherit;
+    font-size: 36px;
+    line-height: 24px;
+    font-family: Bebas Neue;
+    margin-bottom: 30px;
+
+}
+footer #website-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    text-transform: lowercase;
+    color: black;
+}
+.footer-image{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    padding: 30px 0px 0px 30px;
+    margin-bottom: 100px;
+}
+.footer-image-div{
+    position: absolute;
+    left: 43%;
+}
 
 
