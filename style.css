@@ -35,8 +35,6 @@ p{
 .first-image{
     width: 620px;
     height: 613px;
-    position: relative;
-    bottom: 30px;
 }
 
 
@@ -44,9 +42,9 @@ p{
 .second-image{
     position: relative;
     left: 123px;
-    bottom: 200px;
-    width: 476.26px;
-    height: 583.51px;
+    bottom: 150px; 
+    width: 600px;
+    height: 750px;
 }
 .second-button{
     padding: 20px 25px;
@@ -57,7 +55,8 @@ p{
 .third-section{
     background-color: #F8F9FC;
     padding: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 200px;
+    margin-bottom: 150px;
 }
 .third-section-heading{
     text-align: center;
@@ -115,9 +114,7 @@ h3{
 }
 
 /*  footer part start  */
-footer{
-    position: relative;
-}
+
 footer p{
     text-align: center;
     margin: 0;
@@ -132,6 +129,7 @@ footer .footer-pera{
 
 }
 footer #website-name{
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 40px;
@@ -139,16 +137,16 @@ footer #website-name{
     text-transform: lowercase;
     color: black;
 }
+.footer-image-div{
+    margin-left: 43%;
+}
+
 .footer-image{
     display: inline-block;
     height: 45px;
     width: 45px;
     padding: 30px 0px 0px 30px;
     margin-bottom: 100px;
-}
-.footer-image-div{
-    position: absolute;
-    left: 43%;
 }
 
 
